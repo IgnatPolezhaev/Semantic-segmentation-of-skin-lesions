@@ -1,0 +1,2 @@
+# Semantic-segmentation-of-skin-lesions
+The dataset from ADDI project was used in this repository. Segmented melanocytic lesions. I used two models: Signet and UNet. Augmentation was performed on the data, after which they were fed into the model. The quality was measured using the IoU metric. It is considered as the ratio of the intersection of target and predict to their union. I used several loss functions: BCE, Dice, Focal and SIM. I got the best quality on the UNet + BCE loss model: 0.736.
